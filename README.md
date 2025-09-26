@@ -4,28 +4,41 @@ This repository contains open data and reproducible code for analyzing citation 
 
 ## 📁 Project Structure
 
-- `data/processed/`  
+- **`data/processed/`**  
   Cleaned dataset: `processed_publications_for_mertonian_analysis.csv`
-- `notebooks/`  
+
+- **`notebooks/`**  
   Jupyter Notebooks for analysis:
   - `academic_inequality_analysis.ipynb`
   - `matthew_effect_temporal_analysis.ipynb`
-- `output/figures/`  
-  Generated visualizations (e.g., Lorenz curves, trend plots)
-- `output/tables/`  
+  - `north_south_citation_inequality.ipynb`
+  - `run_all.ipynb` → **Reproduces all tables and figures in one click**
+
+- **`scripts/nvivo_exports/`**  
+  Qualitative outputs from NVivo:
+  - `coding_frequencies.csv`
+  - `thematic_summary_table.csv`
+  - `word_freq_global_north.csv`
+  - `word_freq_global_south.csv`
+
+- **`output/figures/`**  
+  Generated visualizations (e.g., Lorenz curves, trend plots, boxplots)
+
+- **`output/tables/`**  
   Exported results (CSV and Excel files)
 
 ## 📚 Data Source & Ethical Use
 
-- Data were extracted from **Scopus** and **Web of Science**, two widely used academic databases.
-- The dataset includes only **publicly available bibliographic metadata**:  
+- Data were extracted from Scopus and Web of Science, two widely used academic databases.
+- The dataset includes only publicly available bibliographic metadata:  
   author names, journal titles, publication years, and citation counts.
-- **No personal, sensitive, or confidential information** is included.
+- No personal, sensitive, or confidential information is included.
 - This repository is shared for **non-commercial academic research and educational purposes only**.
-- If you use this data or code in your work, please:
-  - Cite the associated publication (if available)
-  - Acknowledge the author: Arwen Dria Dahlan
-  - Contact the author for collaborative or derivative uses: arwendriadahlan@uinib.ac.id
+
+### 📝 Ethical Considerations and Reproducibility
+Ethical protocols include anonymization of all journal and organizational identifiers in the qualitative component to protect institutional reputations and enable candid analysis. No human subjects were directly involved; however, the study adheres to principles of epistemic justice by centering marginalized perspectives and critiquing structures of exclusion. To ensure full reproducibility and adherence to FAIR principles, all analytical scripts (Python/R/NVivo), cleaned datasets, codebooks, and a `run_all.ipynb` notebook reproducing every table and figure are publicly available in this repository:  
+[https://github.com/arwendria68/The-Coloniality-of-Citation](https://github.com/arwendria68/The-Coloniality-of-Citation).  
+This repository invites replication, validation, and scholarly extension by the global research community.
 
 ## ▶️ How to Run the Analysis
 
@@ -34,10 +47,11 @@ This repository contains open data and reproducible code for analyzing citation 
 - Basic familiarity with Jupyter Notebook
 
 ### Steps
-1. **Clone this repository**:
+1. Clone this repository:
    ```bash
    git clone https://github.com/arwendria68/The-Coloniality-of-Citation.git
-   cd The-Colonity-of-Citation
+   cd The-Coloniality-of-Citation
+   
 ## Install required packages:
 - pip install -r requirements.txt
 
