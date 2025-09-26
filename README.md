@@ -15,6 +15,18 @@ This repository contains open data and reproducible code for analyzing citation 
 - `output/tables/`  
   Exported results (CSV and Excel files)
 
+## 📚 Data Source & Ethical Use
+
+- Data were extracted from **Scopus** and **Web of Science**, two widely used academic databases.
+- The dataset includes only **publicly available bibliographic metadata**:  
+  author names, journal titles, publication years, and citation counts.
+- **No personal, sensitive, or confidential information** is included.
+- This repository is shared for **non-commercial academic research and educational purposes only**.
+- If you use this data or code in your work, please:
+  - Cite the associated publication (if available)
+  - Acknowledge the author: Arwen Dria Dahlan
+  - Contact the author for collaborative or derivative uses: arwendria68@gmail.com
+
 ## ▶️ How to Run the Analysis
 
 ### Prerequisites
@@ -25,4 +37,16 @@ This repository contains open data and reproducible code for analyzing citation 
 1. **Clone this repository**:
    ```bash
    git clone https://github.com/arwendria68/The-Coloniality-of-Citation.git
-   cd The-Coloniality-of-Citation
+   cd The-Colonity-of-Citation
+## Install required packages:
+- pip install -r requirements.txt
+
+## Launch Jupyter:
+- jupyter lab
+
+## Open and run a notebook:
+- In Jupyter, navigate to notebooks/
+- Open either analysis notebook
+- Select "Run All" from the menu (or run cells sequentially)
+         
+## All outputs (figures and tables) will be saved automatically to the output/ folder. 
