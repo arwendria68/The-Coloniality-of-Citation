@@ -25,7 +25,7 @@ This repository contains open data and reproducible code for analyzing citation 
 - If you use this data or code in your work, please:
   - Cite the associated publication (if available)
   - Acknowledge the author: Arwen Dria Dahlan
-  - Contact the author for collaborative or derivative uses: arwendria68@gmail.com
+  - Contact the author for collaborative or derivative uses: arwendriadahlan@uinib.ac.id
 
 ## ▶️ How to Run the Analysis
 
